@@ -1,2 +1,3 @@
 # rou-web
-The offical website for ROU Technology
+
+The official website for ROU Technology
