@@ -1,0 +1,9 @@
+.app {
+  border: 1.5px solid blue;
+  background: burlywood;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20%;
+}
