@@ -20,7 +20,15 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": ["src/favicon.ico", "src/assets"],
-            "styles": ["src/styles.css"],
+            "styles": [
+              "src/styles.css",
+              "./src/vendor/bootstrap/css/bootstrap.min.css",
+              "./src/fonts/font-awesome-4.7.0/css/font-awesome.min.css",
+              "./src/vendor/animate/animate.css",
+              "./src/vendor/select2/select2.min.css",
+              "./src/vendor/countdowntime/flipclock.css",
+              "./src/css/util.css"
+            ],
             "scripts": []
           },
           "configurations": {
