@@ -5,9 +5,9 @@ name: Build Test
 
 on:
   push:
-    branches: [main]
+    branches: [developing]
   pull_request:
-    branches: [main]
+    branches: [developing]
 
 jobs:
   Firebase-Deployment:
