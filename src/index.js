@@ -1,11 +1,12 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import "jquery/dist/jquery";
+import "popper.js/dist/popper.min";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import 'jquery/dist/jquery';
-import "bootstrap/dist/css/bootstrap.min.css";
-import 'popper.js/dist/popper.min';
 
 ReactDOM.render(
   <React.StrictMode>
