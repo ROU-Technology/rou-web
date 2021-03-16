@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  background-color: FAFEFF;
+}
+
+/* box-shadow: 4px 4px 20px 0px rgba(175, 138, 255, 0.5);
+
+font-family: Sarabun;
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 72px;
+
+color: #FAFEFF;
+
+text-shadow: 4px 4px 20px rgba(175, 138, 255, 0.5); */
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.body {
+  background-color: FAFEFF;
+}
