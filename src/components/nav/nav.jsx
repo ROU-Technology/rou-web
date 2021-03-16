@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-// import logo from "../logo.svg";
+import logo from "../../asset/images/logo.svg";
 import "./nav.css";
 
 function Nav() {
@@ -7,7 +7,7 @@ function Nav() {
     <Fragment>
       <nav className="nav navbar navbar-expand-lg navbar-light bg-light bg-light-rou">
         <a className="navbar-brand" href="/">
-          ROU Tech
+          <img src={logo} alt="ROU Tech" className="logo" />
         </a>
         <button
           className="navbar-toggler"
@@ -40,7 +40,9 @@ function Nav() {
             </li>
           </ul>
           <button className="btn btn-rou" type="click">
-            Join Rou Tech
+            <a className="btn-rou-a btn-rou" href="/Join">
+              Join Rou Tech
+            </a>
           </button>
         </div>
       </nav>
