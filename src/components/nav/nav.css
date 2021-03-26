@@ -50,12 +50,11 @@
 
 @media (min-width: 992px) {
   .navbar-nav {
-    margin-left: 30%;
+    margin-left: auto;
     width: max-content;
   }
 
   .nav-item {
-    margin-left: 7%;
     padding-left: 7%;
   }
 }

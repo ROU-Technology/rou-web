@@ -34,6 +34,11 @@ function Nav() {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="/blog">
+                Blog
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="/volunteer">
                 Volunteer
               </a>

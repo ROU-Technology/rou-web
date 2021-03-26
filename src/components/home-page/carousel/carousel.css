@@ -1,0 +1,105 @@
+.Caro {
+  width: inherit;
+  height: inherit;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  /* border: 5px solid red; */
+}
+
+.Caro-c {
+  width: 500px;
+  height: 375px;
+}
+
+.Caro-blue {
+  width: inherit;
+  height: 376px;
+  background: #100033;
+  border-radius: 2px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  display: none;
+}
+
+.wl {
+  margin-top: 70px;
+}
+
+.word-body {
+  margin-left: 40px;
+}
+
+.head {
+  width: 172px;
+  height: 51px;
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 72px;
+  text-align: left;
+  color: #fafeff;
+  margin-bottom: 50px;
+}
+
+.word {
+  width: 433px;
+  height: 96px;
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+  color: #00ccff;
+}
+
+.line {
+  margin-top: 50px;
+}
+
+@media (max-width: 1124px) {
+  .head {
+    width: 165px;
+    height: 51px;
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 28px;
+    line-height: 72px;
+    text-align: left;
+    color: #fafeff;
+    margin-bottom: 50px;
+  }
+
+  .word {
+    width: auto;
+    height: 96px;
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: left;
+    color: #00ccff;
+  }
+
+  .line {
+    width: 20px;
+    margin-top: 50px;
+  }
+
+  .col-sm-3 {
+    padding-right: 15px;
+    padding-left: 0px;
+  }
+
+  .row {
+    flex-wrap: nowrap;
+  }
+}
