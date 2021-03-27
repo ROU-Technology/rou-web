@@ -1,13 +1,5 @@
 import React, { Fragment } from "react";
 import "./Footer.css";
-import call from "../../asset/call.svg";
-import facebook from "../../asset/facebook.svg";
-import twitter from "../../asset/twitter.svg";
-import instagram from "../../asset/instagram.svg";
-import youtube from "../../asset/youtube.svg";
-import mail from "../../asset/mail.svg";
-import whatsApp from "../../asset/whatsapp.svg";
-import linkedIn from "../../asset/linkedin.svg";
 
 function Footer() {
   return (
@@ -22,14 +14,14 @@ function Footer() {
               </ul>
             </div>
             <div className="col-one-two col-md-6">
-              <img src={mail} alt="" className="facebook" />
-              <img src={call} alt="" className="facebook" />
-              <img src={linkedIn} alt="" className="facebook" />
-              <img src={twitter} alt="" className="facebook" />
-              <img src={facebook} alt="" className="facebook" />
-              <img src={instagram} alt="" className="facebook" />
-              <img src={youtube} alt="" className="facebook" />
-              <img src={whatsApp} alt="" className="facebook" />
+              <i className="fab fa-facebook facebook"></i>
+              <i className="fab fa-mail facebook"></i>
+              <i className="fas fa-phone facebook"></i>
+              <i className="fab fa-linkedin facebook"></i>
+              <i className="fab fa-twitter facebook"></i>
+              <i className="fab fa-instagram facebook"></i>
+              <i className="fab fa-youtube facebook"></i>
+              <i className="fab fa-whatsapp facebook"></i>
             </div>
           </div>
           <div className="col-two">
