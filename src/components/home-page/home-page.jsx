@@ -62,11 +62,14 @@ const HomePage = () => {
       </div>
       <div className="quote">
         <div className="quote-b">
-          <p className="p-quote">
+          <p className="p-quote p1">
             Programing and Artificial Intelligence are the skills our Youth
             need, not because they are cool, but, because they are the very
-            definition of revolution. <br></br>Africa and the whole wide world
-            is counting on you to make that revolution a living reality.
+            definition of revolution.
+          </p>{" "}
+          <p className="p-quote p2">
+            Africa and the whole wide world is counting on you to make that
+            revolution a living reality.
           </p>
         </div>
       </div>

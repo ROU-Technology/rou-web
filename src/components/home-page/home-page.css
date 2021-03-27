@@ -135,6 +135,10 @@
   height: 57px;
 }
 
+.btn-rou-3:hover {
+  text-decoration: none;
+}
+
 .quote {
   display: flex;
   align-items: center;
@@ -145,6 +149,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 85%;
   height: auto;
   background: #100033;
@@ -165,9 +170,13 @@
   color: #fafeff;
   text-align: left;
   margin-top: 20px;
-  padding-top: 30px;
+  padding-top: auto;
   padding-bottom: 30px;
-  margin-bottom: 20px;
+  margin-bottom: auto;
+}
+
+.p2 {
+  margin-top: auto;
 }
 
 @media (max-width: 1247px) {
@@ -338,6 +347,33 @@
   }
 }
 
+@media (max-width: 735px) {
+  .Carousel-1 {
+    margin-bottom: auto;
+  }
+  .Carousel-1-1 {
+    display: none;
+  }
+
+  .Carousel-1-2 {
+    width: 80%;
+    height: auto;
+    margin: 0px;
+    padding-top: 30px;
+  }
+
+  .button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .p-quote {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
 @media (max-width: 715px) {
   .btn-rou-2 {
     margin-top: 50px;
@@ -358,6 +394,30 @@
 @media (max-width: 600px) {
   .hero {
     background: linear-gradient(180deg, #00141a 0%, #100033 100%);
+  }
+}
+
+@media (max-width: 575px) {
+  .button {
+    background-color: #00ccff;
+    margin: auto;
+    margin-top: -20px;
+    width: 80%;
+    height: 80px;
+  }
+
+  .btn-rou-2 {
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  .btn-rou-3 {
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  .quote-b {
+    border-top: 20px solid #4dee02;
   }
 }
 

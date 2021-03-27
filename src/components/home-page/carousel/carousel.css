@@ -59,6 +59,10 @@
   color: #00ccff;
 }
 
+.line2 {
+  display: none;
+}
+
 .line {
   margin-top: 50px;
 }
@@ -101,5 +105,54 @@
 
   .row {
     flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 735px) {
+  .head {
+    font-weight: 550;
+    font-size: 38px;
+  }
+
+  .word {
+    font-size: 20px;
+    height: auto;
+    line-height: 27px;
+  }
+}
+
+@media (max-width: 575px) {
+  .Caro-blue {
+    background: #00ccff;
+    border-radius: 2px;
+  }
+
+  .word-body {
+    margin: 20px;
+  }
+
+  .wl {
+    margin-top: auto;
+  }
+  .head {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .word {
+    width: auto;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #100333;
+  }
+
+  .line2 {
+    display: block;
+    margin-top: 40px;
+  }
+
+  .line {
+    display: none;
   }
 }
