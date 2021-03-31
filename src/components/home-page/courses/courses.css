@@ -1,0 +1,314 @@
+.courses {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+}
+
+h1 {
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 72px;
+  color: #ffb800;
+  text-align: left;
+}
+
+.curri {
+  width: 100%;
+}
+
+.curri-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.curri-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.curri-btn {
+  width: auto;
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 72px;
+  color: #100033;
+  cursor: pointer;
+  /* border: 3px solid brown; */
+}
+
+.curri-btn-sm {
+  display: none;
+}
+
+.curri-btn-sm-2 {
+  display: none;
+  padding: 0px;
+}
+
+.col-sm-6 {
+  max-width: none;
+}
+
+.rule {
+  display: none;
+  margin-top: -25px;
+}
+
+.rule-2 {
+  display: none;
+  margin-top: -25px;
+  margin-bottom: 30px;
+  margin-right: 18px;
+}
+
+.jet {
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% 0px 90px 0px;
+}
+
+.curri-4 {
+  /* width: 544.96px; */
+}
+
+.curriW {
+  /* width: 501.36px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10%;
+}
+
+.curri_word {
+  /* width: 501.36px; */
+  height: 190px;
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 48px;
+  color: #100033;
+  text-align: left;
+}
+
+.curri_btn_join {
+  width: 50%;
+  height: 50px;
+  background: #100033;
+  border-radius: 2px;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.curri_btn_join a {
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 48px;
+  color: #fafeff;
+}
+
+.curri_btn_join:hover a {
+  text-decoration: none;
+}
+
+.curri_btn_join:hover {
+  text-decoration: none;
+  background: #2b047e;
+}
+
+@media (max-width: 994px) {
+  h1 {
+    font-weight: 400;
+    font-size: 55px;
+  }
+
+  .rule {
+    width: 70%;
+  }
+
+  .rule-2 {
+    width: 75%;
+  }
+
+  .curri-btn {
+    width: auto;
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: 540;
+    font-size: 30px;
+    /* border: 3px solid brown; */
+  }
+
+  .curri_4 {
+    margin-top: -10%;
+  }
+
+  .curri_btn_join {
+    margin-top: 5%;
+  }
+
+  .curri_btn_join a {
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #fafeff;
+  }
+
+  .curri_word {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 822px) {
+  h1 {
+    font-weight: 400;
+    font-size: 42px;
+  }
+
+  .curri-btn {
+    font-weight: 400;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 776px) {
+  .curri_btn_join a {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    color: #fafeff;
+  }
+
+  .curri_word {
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .curri_4 {
+    display: none;
+  }
+
+  .curriW {
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .curri_btn_join {
+    margin-top: auto;
+  }
+
+  .curri_btn_join a {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    color: #fafeff;
+  }
+
+  .curri_word {
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 684px) {
+  h1 {
+    text-align: center;
+  }
+
+  .curri-btn {
+    display: none;
+  }
+
+  .curri-btn-sm {
+    display: flex;
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 72px;
+    color: #100033;
+    cursor: pointer;
+  }
+
+  .curri-btn-sm-2 {
+    display: inline-flex;
+    font-family: Sarabun;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 72px;
+    color: #100033;
+    cursor: pointer;
+    justify-content: flex-end;
+  }
+
+  .rule {
+    width: 60%;
+  }
+
+  .rule-2 {
+    width: 60%;
+    margin-left: 0px;
+    align-self: flex-end;
+  }
+}
+
+@media (max-width: 344px) {
+  .curri_word {
+    font-size: 15px;
+  }
+
+  .curri-btn-sm {
+    font-size: 20px;
+  }
+
+  .curri-btn-sm-2 {
+    font-size: 20px;
+  }
+
+  .curri_btn_join {
+    margin-top: auto;
+  }
+}
+
+@media (max-width: 318px) {
+  .curri_btn_join {
+    height: 30px;
+  }
+  .curri_btn_join a {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 296px) {
+  .curri-btn-sm {
+    font-weight: 800;
+    font-size: 15px;
+  }
+  .curri-btn-sm-2 {
+    font-weight: 800;
+    font-size: 15px;
+  }
+}
