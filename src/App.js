@@ -1,7 +1,7 @@
 import "./App.css";
-import Nav from "./components/nav/nav.jsx";
-import Footer from "./components/footer/Footer.jsx";
-import HomePage from "./components/home-page/home-page.jsx";
+import Nav from "./components/nav/nav.js";
+import Footer from "./components/footer/Footer.js";
+import HomePage from "./components/home-page/home-page.js";
 
 function App() {
   return (

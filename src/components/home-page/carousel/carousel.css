@@ -108,6 +108,18 @@
   }
 }
 
+@media (max-width: 767px) {
+  .word {
+    width: 80%;
+    padding: 0px;
+    margin-left: 0px;
+  }
+
+  .line {
+    display: none;
+  }
+}
+
 @media (max-width: 735px) {
   .head {
     font-weight: 550;
