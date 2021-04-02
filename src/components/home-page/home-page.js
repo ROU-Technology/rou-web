@@ -91,6 +91,7 @@ const HomePage = () => {
           <p className="p-about p4">We believe in the African Youth, do you?</p>
         </div>
       </div>
+      <Team />
     </Fragment>
   );
 };
