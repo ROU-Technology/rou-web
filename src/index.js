@@ -1,8 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import "jquery/dist/jquery";
+import "@fortawesome/fontawesome-free/js/all.js";
 import "popper.js/dist/popper.min";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import "font-awesome/css/font-awesome.min.css";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";

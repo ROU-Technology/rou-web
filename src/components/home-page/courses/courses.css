@@ -232,6 +232,12 @@ h1 {
   }
 }
 
+@media (max-width: 740px) {
+  .courses {
+    width: 95%;
+  }
+}
+
 @media (max-width: 684px) {
   h1 {
     text-align: center;
