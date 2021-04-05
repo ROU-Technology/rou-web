@@ -4,9 +4,13 @@ import kid from "../../asset/images/kid.png";
 import lady from "../../asset/images/lady.jpg";
 import lady2 from "../../asset/images/lady2.jpg";
 import guy2 from "../../asset/images/guy2.jpg";
+import back from "../../asset/images/Group 110.svg";
+import next from "../../asset/images/Group 111.svg";
 import Carousels from "./carousel/carousel.js";
 import Courses from "./courses/courses";
 import Team from "./team/team";
+import ww_1 from "../../asset/images/ww2.jpg";
+import ww_2 from "../../asset/images/ww3.jpg";
 
 const HomePage = () => {
   const img = [lady, lady2, guy2];
@@ -62,19 +66,39 @@ const HomePage = () => {
           </a>
         </button>
       </div>
-      <div className="quote">
-        <div className="quote-b">
-          <p className="p-quote p1">
-            Programing and Artificial Intelligence are the skills our Youth
-            need, not because they are cool, but, because they are the very
-            definition of revolution.
-          </p>{" "}
-          <p className="p-quote p2">
-            Africa and the whole wide world is counting on you to make that
-            revolution a living reality.
-          </p>
+
+      <div className="w-word">
+        <div className="w-word-1">
+          <img src={ww_1} alt="img-w" className="w-word-img" />
+          <div className="w-word-1-w w-word-w">
+            <p className="w-word-1-p w-word-p">
+              The Future of your kids start now, Even if your child will not
+              work in a tech related field. <br />
+              Giving him/her a touch of technology is a great investment into
+              his/her future
+            </p>
+            <button className="btn w-word-1-btn w-word-btn">
+              <p className="w-b">Consult us Today</p>
+            </button>
+          </div>
+        </div>
+        <div className="w-word-2">
+          <img src={ww_2} alt="img-w" className="w-word-img" />
+          <div className="w-word-1-w w-word-w">
+            <p className="w-word-2-p w-word-p">
+              {" "}
+              At ROU Technology we wil help train your student and make them
+              prepare for the future. We train at all levels of education, from
+              the primary sector to the secondary sector. <br />
+              You can bring Technology to your school today.
+            </p>
+            <button className="btn w-word-2-btn w-word-btn">
+              <p className="w-b">Consult us Today</p>
+            </button>
+          </div>
         </div>
       </div>
+
       <Courses />
 
       <div id="about">
@@ -92,6 +116,29 @@ const HomePage = () => {
         </div>
       </div>
       <Team />
+      <div className="bridge">
+        <img src={back} className="arrow" alt="arrow" />
+        <div className="bridge-b">
+          <p className="bridge-p">Want to join our team?</p>
+          <button className="btn bridge-btn">
+            <p>Volunteer with ROU Tech</p>
+          </button>
+        </div>
+        <img src={next} className="arrow" alt="arrow" />
+      </div>
+      <div className="quote">
+        <div className="quote-b">
+          <p className="p-quote p1">
+            Programing and Artificial Intelligence are the skills our Youth
+            need, not because they are cool, but, because they are the very
+            definition of revolution.
+          </p>{" "}
+          <p className="p-quote p2">
+            Africa and the whole wide world is counting on you to make that
+            revolution a living reality.
+          </p>
+        </div>
+      </div>
     </Fragment>
   );
 };

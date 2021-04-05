@@ -152,9 +152,10 @@
   flex-direction: column;
   width: 85%;
   height: auto;
-  background: #100033;
-  border-radius: 20px;
-  border-top: 42px solid #4dee02;
+  background-image: url("../../asset/images/quote.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px 0px 20px 20px;
   margin-top: 60px;
   margin-bottom: 40px;
 }
@@ -182,6 +183,114 @@
 .p2 {
   margin-top: 40px;
   margin-bottom: 50px;
+}
+
+.w-word {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.w-word-1 {
+  width: 85%;
+  height: 320px;
+  background: #00ccff;
+  border-radius: 5px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.w-word-2 {
+  width: 85%;
+  height: 345px;
+  background: #100033;
+  border-radius: 5px;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.w-word-img {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.w-word-1-w {
+  display: flex;
+  flex-direction: column;
+  width: 59%;
+  margin: auto;
+}
+
+.w-word-1-p {
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #100033;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.w-word-2-p {
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #fafeff;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.w-word-1-btn {
+  width: 211.67px;
+  height: 60px;
+  background: #100033;
+  border-radius: 5px;
+  margin-right: 30px;
+  margin-top: 30px;
+  align-self: flex-end;
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #fafeff;
+  text-align: center;
+}
+
+.w-word-2-btn {
+  width: 211.67px;
+  height: 60px;
+  background: #00ccff;
+  border-radius: 5px;
+  margin-right: 30px;
+  margin-top: 20px;
+  align-self: flex-end;
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #100033;
+  text-align: center;
+}
+
+.w-b {
+  text-align: center;
+  margin: auto;
 }
 
 #about {
@@ -222,6 +331,47 @@
   color: #ffb800;
 }
 
+.bridge {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background: #100033;
+  margin-bottom: 30px;
+}
+
+.bridge-p {
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 72px;
+  color: #f29100;
+}
+
+.bridge-btn {
+  width: 326px;
+  height: 56px;
+  background: #fafeff;
+  border: 1px solid #100033;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-top: 30px;
+}
+
+.bridge-btn p {
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 48px;
+  color: #100033;
+  margin: auto;
+  margin-top: -6px;
+  text-align: center;
+}
+
 @media (max-width: 1247px) {
   .hero {
     height: auto;
@@ -260,6 +410,19 @@
 @media (max-width: 1135px) {
   .future {
     width: auto;
+  }
+
+  .w-word-p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .w-word-btn {
+    width: 200px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 20px;
   }
 }
 
@@ -306,6 +469,13 @@
   }
 }
 
+@media (max-width: 1050px) {
+  .w-word-2-p {
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 1038px) {
   .future {
     font-size: 60px;
@@ -313,6 +483,25 @@
 
   .future-p {
     margin-top: 50px;
+  }
+}
+
+@media (max-width: 968px) {
+  .w-word-1-p {
+    font-size: 19px;
+    font-weight: 500;
+  }
+
+  .w-word-btn {
+    margin: auto;
+    width: 150px;
+    height: auto;
+  }
+
+  .w-word-btn p {
+    font-size: medium;
+    margin: 0px;
+    padding: 0px;
   }
 }
 
@@ -387,6 +576,20 @@
   .btn-rou-2 {
     margin-top: 20px;
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 740px) {
+  #about-b {
+    width: 95%;
+  }
+
+  .p-about {
+    width: 75%;
+  }
+
+  .quote-b {
+    width: 95%;
   }
 }
 
@@ -482,10 +685,6 @@
   .btn-rou-3 {
     font-weight: 500;
     font-size: 24px;
-  }
-
-  .quote-b {
-    border-top: 20px solid #4dee02;
   }
 }
 

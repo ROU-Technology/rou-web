@@ -29,8 +29,8 @@ function Nav() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/courses">
-                Courses
+              <a className="nav-link" href="/programs">
+                Programs
               </a>
             </li>
             <li className="nav-item">
