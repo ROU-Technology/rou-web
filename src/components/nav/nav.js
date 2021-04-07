@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { Link } from "react-router-dom";
 import logo from "../../asset/images/logo.svg";
 import "./nav.css";
 
@@ -6,9 +7,9 @@ function Nav() {
   return (
     <Fragment>
       <nav className="nav navbar navbar-expand-lg navbar-light bg-light bg-light-rou">
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           <img src={logo} alt="ROU Tech" className="logo" />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -24,14 +25,14 @@ function Nav() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="/about">
+              <Link className="nav-link" to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/programs">
+              <Link className="nav-link" to="/programs">
                 Programs
-              </a>
+              </Link>
             </li>
             {/* <li className="nav-item">
               <a className="nav-link" href="/blog">
@@ -39,15 +40,15 @@ function Nav() {
               </a>
             </li> */}
             <li className="nav-item">
-              <a className="nav-link" href="/volunteer">
+              <Link className="nav-link" to="/volunteer">
                 Volunteer
-              </a>
+              </Link>
             </li>
           </ul>
           <button className="btn btn-rou" type="click">
-            <a className="btn-rou-a btn-rou" href="/Join">
+            <Link className="btn-rou-a btn-rou" to="/Join">
               Join Rou Tech
-            </a>
+            </Link>
           </button>
         </div>
       </nav>
