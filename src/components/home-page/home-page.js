@@ -97,6 +97,7 @@ const HomePage = () => {
             </button>
           </div>
         </div>
+        <button className="btn-w-word">Consult us Today</button>
       </div>
 
       <Courses />
@@ -116,15 +117,18 @@ const HomePage = () => {
         </div>
       </div>
       <Team />
-      <div className="bridge">
-        <img src={back} className="arrow" alt="arrow" />
-        <div className="bridge-b">
-          <p className="bridge-p">Want to join our team?</p>
-          <button className="btn bridge-btn">
-            <p>Volunteer with ROU Tech</p>
-          </button>
+      <div className="bridge br">
+        <div className="bridge bk">
+          <img src={back} className="arrow" alt="arrow" />
+          <div className="bridge-b">
+            <p className="bridge-p">Want to join our team?</p>
+            <button className="btn bridge-btn">
+              <p>Volunteer with ROU Tech</p>
+            </button>
+          </div>
+          <img src={next} className="arrow" alt="arrow" />
         </div>
-        <img src={next} className="arrow" alt="arrow" />
+        <button className="btn bridge-btn-2">Volunteer with ROU Tech</button>
       </div>
       <div className="quote">
         <div className="quote-b">
