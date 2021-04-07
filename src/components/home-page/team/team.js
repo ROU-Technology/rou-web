@@ -1,8 +1,12 @@
 import { React, useState } from "react";
 import "./team.css";
 import Tiff from "../../../asset/images/Tiffany.png";
+import Deji from "../../../asset/images/Deji.png";
+import Ola from "../../../asset/images/ola.png";
 import Next from "../../../asset/images/Group 110.svg";
 import Back from "../../../asset/images/Group 111.svg";
+import TeamBig from "./team-size/teamBig";
+import TeamSmall from "./team-size/teamSmall";
 
 function Team() {
   const [Move, setMove] = useState("first");
@@ -40,75 +44,37 @@ function Team() {
     }
   };
 
-  return (
-    <div id="team">
-      <h1 className="join-h1">Core Team</h1>
-      <div className="team-b" style={first}>
-        <div className="next">
-          <img className="next" src={Next} alt="next" onClick={changeMove} />
-        </div>
-        <div className="core-team-member">
-          <img src={Tiff} alt="founder" className="img-core-team" />
-          <h2 className="names">Raheem Olalekan Usman</h2>
-          <p className="position">CEO, Founder and Lead Developer</p>
-          <div className="links">
-            <i className="fab fa-linkedin icon"></i>
-            <i className="fab fa-twitter icon"></i>
-            <i className="fab fa-github icon"></i>
-          </div>
-        </div>
-        <div className="core-team-member t-two">
-          <img src={Tiff} alt="core-team" className="img-core-team" />
-          <h2 className="names t-two-p">Tiffany Kisiero</h2>
-          <p className="position t-two-p">Lead Designer</p>
-          <div className="links">
-            <i className="fab fa-linkedin icon"></i>
-            <i className="fab fa-twitter icon"></i>
-            <i className="fab fa-instagram icon"></i>
-          </div>
-        </div>
-        <div className="core-team-member t-three">
-          <img src={Tiff} alt="core-team" className="img-core-team" />
-          <h2 className="names t-three-p">Raheem Olalekan Usman</h2>
-          <p className="position t-three-p">Advisor and Curriculum Developer</p>
-          <div className="links">
-            <i className="fab fa-linkedin icon"></i>
-            <i className="fab fa-twitter icon"></i>
-            <i className="fab fa-instagram icon"></i>
-          </div>
-        </div>
-        <div className="next">
-          <img className="next" src={Back} alt="next" onClick={changeMove} />
-        </div>
-      </div>
-      <div className="team-b" style={second}>
-        <div className="next">
-          <img className="next" src={Next} alt="next" onClick={changeMove} />
-        </div>
-        <div className="core-team-member">
-          <img src={Tiff} alt="founder" className="img-core-team" />
-          <h2 className="names">Raheem Olalekan</h2>
-          <p className="position">CEO, Founder and Lead Developer</p>
-          <div className="links"></div>
-        </div>
-        <div className="core-team-member t-two">
-          <img src={Tiff} alt="core-team" className="img-core-team" />
-          <h2 className="names t-two-p">Tiffany Kisiero</h2>
-          <p className="position t-two-p">Lead Designer</p>
-          <div className="links"></div>
-        </div>
-        <div className="core-team-member t-three">
-          <img src={Tiff} alt="core-team" className="img-core-team" />
-          <h2 className="names t-three-p">Raheem Olalekan Usman</h2>
-          <p className="position t-three-p">Advisor and Curriculum Developer</p>
-          <div className="links"></div>
-        </div>
-        <div className="next">
-          <img className="next" src={Back} alt="next" onClick={changeMove} />
-        </div>
-      </div>
-    </div>
-  );
+  const display = () => {
+    if (window.screen.width < 550) {
+      return (
+        <TeamSmall
+          first={first}
+          Next={Next}
+          Tiff={Tiff}
+          Deji={Deji}
+          Ola={Ola}
+          changeMove={changeMove}
+          Back={Back}
+          second={second}
+        />
+      );
+    } else {
+      return (
+        <TeamBig
+          first={first}
+          Next={Next}
+          Tiff={Tiff}
+          Deji={Deji}
+          Ola={Ola}
+          changeMove={changeMove}
+          Back={Back}
+          second={second}
+        />
+      );
+    }
+  };
+
+  return <>{display()}</>;
 }
 
 export default Team;

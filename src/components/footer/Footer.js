@@ -15,13 +15,9 @@ function Footer() {
             </div>
             <div className="col-one-two col-md-6">
               <i className="fab fa-facebook facebook"></i>
-              <i class="fas fa-envelope facebook"></i>
-              <i className="fas fa-phone facebook"></i>
               <i className="fab fa-linkedin facebook"></i>
               <i className="fab fa-twitter facebook"></i>
-              <i className="fab fa-instagram facebook"></i>
               <i className="fab fa-youtube facebook"></i>
-              <i className="fab fa-whatsapp facebook"></i>
             </div>
           </div>
           <div className="col-two">
