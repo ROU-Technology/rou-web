@@ -1,5 +1,5 @@
 import "./App.css";
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Nav from "./components/nav/nav.js";
 import Footer from "./components/footer/Footer.js";
 import AboutPage from "./components/About/About";
