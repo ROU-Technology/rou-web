@@ -267,8 +267,11 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 40px;
-  color: #fafeff;
   text-align: center;
+}
+
+.w-word-1-btn a {
+  color: #fafeff;
 }
 
 .w-word-2-btn {
@@ -284,13 +287,20 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 40px;
-  color: #100033;
   text-align: center;
+}
+
+.w-word-2-btn a {
+  color: #100033;
 }
 
 .w-b {
   text-align: center;
   margin: auto;
+}
+
+.w-b:hover {
+  text-decoration: none;
 }
 
 .btn-w-word {
@@ -368,7 +378,7 @@
   margin-top: 30px;
 }
 
-.bridge-btn p {
+.bridge-btn a {
   font-family: Sarabun;
   font-style: normal;
   font-weight: 500;
@@ -378,6 +388,10 @@
   margin: auto;
   margin-top: -6px;
   text-align: center;
+}
+
+.bridge-btn a:hover {
+  text-decoration: none;
 }
 
 .bridge-btn-2 {
@@ -812,6 +826,15 @@
     background-color: #100033;
     color: #fafeff;
   }
+
+  .btn-w-word a {
+    color: #100033;
+  }
+
+  .btn-w-word a:hover {
+    text-decoration: none;
+    color: #fafeff;
+  }
 }
 
 @media (max-width: 575px) {
@@ -925,6 +948,15 @@
     line-height: 20px;
     color: #100033;
     margin-bottom: 20px;
+  }
+
+  .bridge-btn-2 a {
+    color: #100033;
+  }
+
+  .bridge-btn-2 a:hover {
+    text-decoration: none;
+    color: #100033;
   }
 
   .br {

@@ -11,6 +11,7 @@ import Courses from "./Courses/Courses";
 import Team from "./Teams/Team";
 import ww_1 from "../../asset/images/ww2.jpg";
 import ww_2 from "../../asset/images/ww3.jpg";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   const img = [lady, lady2, guy2];
@@ -34,9 +35,9 @@ const HomePage = () => {
                 Intelligence for all levels of Education and Anyone.
               </p>
               <button className="btn btn-rou-2" type="click">
-                <a className="btn-rou-2" href="/Join">
+                <Link className="btn-rou-2" to="/programs">
                   Join Rou Tech
-                </a>
+                </Link>
               </button>
             </div>
             <div className="hero-2 col-md-6">
@@ -61,9 +62,9 @@ const HomePage = () => {
       </section>
       <div className="button">
         <button className="btn btn-rou-3" type="click">
-          <a className="btn-rou-3" href="/Join">
+          <Link className="btn-rou-3" to="/programs">
             Join Rou Tech
-          </a>
+          </Link>
         </button>
       </div>
 
@@ -78,7 +79,9 @@ const HomePage = () => {
               his/her future
             </p>
             <button className="btn w-word-1-btn w-word-btn">
-              <p className="w-b">Consult us Today</p>
+              <Link className="w-b" to="/about#contact">
+                Consult us Today
+              </Link>
             </button>
           </div>
         </div>
@@ -93,11 +96,15 @@ const HomePage = () => {
               You can bring Technology to your school today.
             </p>
             <button className="btn w-word-2-btn w-word-btn">
-              <p className="w-b">Consult us Today</p>
+              <Link className="w-b" to="/about#contact">
+                Consult us Today
+              </Link>
             </button>
           </div>
         </div>
-        <button className="btn-w-word">Consult us Today</button>
+        <button className="btn-w-word">
+          <Link to="/about#contact">Consult us Today</Link>
+        </button>
       </div>
 
       <Courses />
@@ -123,12 +130,14 @@ const HomePage = () => {
           <div className="bridge-b">
             <p className="bridge-p">Want to join our team?</p>
             <button className="btn bridge-btn">
-              <p>Volunteer with ROU Tech</p>
+              <Link to="/volunteer">Volunteer with ROU Tech</Link>
             </button>
           </div>
           <img src={next} className="arrow" alt="arrow" />
         </div>
-        <button className="btn bridge-btn-2">Volunteer with ROU Tech</button>
+        <button className="btn bridge-btn-2">
+          <Link to="/volunteer">Volunteer with ROU Tech</Link>
+        </button>
       </div>
       <div className="quote">
         <div className="quote-b">

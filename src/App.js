@@ -10,6 +10,7 @@ import VolunteerPage from "./components/Volunteer/VolunteerPage";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import SuccessPage from "./components/common/SuccessPage";
+import ScrollToTop from "./components/common/ScrollToTop";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <header className="header">
         <Nav></Nav>
       </header>
+      {/* ScrollToTop is used to make the component scroll to the top automatically */}
+      <ScrollToTop />
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/about" component={AboutPage} />
