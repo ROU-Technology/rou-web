@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import "./courses.css";
+import "./Courses.css";
 import line from "../../../asset/images/line.svg";
 import curri_4 from "../../../asset/images/curri-4.jpg";
 import curri_3 from "../../../asset/images/curri-3.jpg";

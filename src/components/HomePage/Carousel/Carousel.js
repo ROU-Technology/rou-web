@@ -1,7 +1,7 @@
 import React from "react";
 // import PropTypes from "prop-types";
 import Carousel from "react-bootstrap/Carousel";
-import "./carousel.css";
+import "./Carousel.css";
 import line from "../../../asset/images/Group 70.svg";
 import line2 from "../../../asset/images/Group 100.svg";
 

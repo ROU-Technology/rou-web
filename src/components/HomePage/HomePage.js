@@ -1,14 +1,14 @@
 import { Fragment } from "react";
-import "./home-page.css";
+import "./HomePage.css";
 import kid from "../../asset/images/kid.png";
 import lady from "../../asset/images/lady.jpg";
 import lady2 from "../../asset/images/lady2.jpg";
 import guy2 from "../../asset/images/guy2.jpg";
 import back from "../../asset/images/Group 110.svg";
 import next from "../../asset/images/Group 111.svg";
-import Carousels from "./carousel/carousel.js";
-import Courses from "./courses/courses";
-import Team from "./team/team";
+import Carousels from "./Carousel/Carousel";
+import Courses from "./Courses/Courses";
+import Team from "./Teams/Team";
 import ww_1 from "../../asset/images/ww2.jpg";
 import ww_2 from "../../asset/images/ww3.jpg";
 
