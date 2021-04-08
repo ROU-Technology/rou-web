@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./About.css";
 import { toast } from "react-toastify";
+import { Redirect } from "react-router";
 
 export default class AboutPage extends Component {
   state = {
@@ -65,6 +66,7 @@ export default class AboutPage extends Component {
     console.log(this.state.form);
     this.setState({ form: _newForm });
     toast.success("Your message Successfully sent");
+    this.props.history.push("/sus");
   };
 
   render() {

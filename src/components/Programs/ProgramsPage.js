@@ -4,11 +4,8 @@ import Construction from "../common/Construction";
 import img from "../../asset/images/under_construction.svg";
 
 function ProgramsPage() {
-  const brake = () => {
-    return <br />;
-  };
   let word = `This page is under reconstruction, we are sorry for any inconveniency this might have cause.
-  ${brake()} This page wil be available shortly .`;
+   This page wil be available shortly .`;
   let head = "Under Construction";
   return (
     <Construction

@@ -9,6 +9,7 @@ import ProgramsPage from "./components/Programs/ProgramsPage";
 import VolunteerPage from "./components/Volunteer/VolunteerPage";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import SuccessPage from "./components/common/SuccessPage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/about" component={AboutPage} />
         <Route path="/programs" component={ProgramsPage} />
         <Route path="/volunteer" component={VolunteerPage} />
+        <Route path="/sus" component={SuccessPage} />
         <Route component={Page404} />
       </Switch>
       <Footer />
