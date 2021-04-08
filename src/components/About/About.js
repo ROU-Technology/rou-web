@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
 import { toast } from "react-toastify";
-import { Redirect } from "react-router";
 
 export default class AboutPage extends Component {
   state = {
