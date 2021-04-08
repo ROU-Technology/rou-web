@@ -1,12 +1,12 @@
 import { React, useState } from "react";
-import "./team.css";
+import "./Team.css";
 import Tiff from "../../../asset/images/Tiffany.png";
 import Deji from "../../../asset/images/Deji.png";
 import Ola from "../../../asset/images/ola.png";
 import Next from "../../../asset/images/Group 110.svg";
 import Back from "../../../asset/images/Group 111.svg";
-import TeamBig from "./team-size/teamBig";
-import TeamSmall from "./team-size/teamSmall";
+import TeamBig from "./TeamSize/TeamBig";
+import TeamSmall from "./TeamSize/TeamSmall";
 
 function Team() {
   const [Move, setMove] = useState("first");

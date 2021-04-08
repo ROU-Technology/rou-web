@@ -1,0 +1,115 @@
+.const-body {
+  width: 60%;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.const-h1 {
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 72px;
+  color: #d10000;
+}
+
+.const-word p {
+  font-family: Sarabun;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 48px;
+  color: #100033;
+}
+
+.const-img {
+  width: inherit;
+}
+
+.btn-const {
+  color: #28a745;
+}
+
+.btn-const:hover {
+  text-decoration: solid;
+  color: white;
+}
+
+@media (max-width: 857px) {
+  .const-h1 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+  }
+
+  .const-word p {
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .const-body {
+    width: 95%;
+  }
+
+  .col-md-6 {
+    padding: 0px;
+  }
+
+  .const-word {
+    width: 400px;
+  }
+
+  .const-img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .const-h1 {
+    font-size: 25px;
+  }
+
+  .const-word p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 475px) {
+  .const-img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .const-h1 {
+    font-size: 25px;
+  }
+
+  .const-word p {
+    font-size: 15px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .btn-const {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 409px) {
+  .const-body {
+    flex-direction: column;
+  }
+
+  .const-word {
+    width: 100%;
+  }
+
+  .const-img {
+    width: 85%;
+    margin: auto;
+  }
+}

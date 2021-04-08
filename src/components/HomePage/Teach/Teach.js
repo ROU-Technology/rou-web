@@ -1,5 +1,6 @@
 import { React, useState } from "react";
 import line from "../../../asset/images/line.svg";
+import "./Teach.css";
 
 function Teach() {
   const [level, setlevel] = useState("beginner");
