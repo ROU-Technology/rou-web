@@ -46,7 +46,7 @@ function Nav() {
             </li>
           </ul>
           <button className="btn btn-rou" type="click">
-            <Link className="btn-rou-a btn-rou" to="/Join">
+            <Link className="btn-rou-a btn-rou" to="/programs">
               Join Rou Tech
             </Link>
           </button>

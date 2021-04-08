@@ -4,6 +4,7 @@ import line from "../../../asset/images/line.svg";
 import curri_4 from "../../../asset/images/curri-4.jpg";
 import curri_3 from "../../../asset/images/curri-3.jpg";
 import curri_2 from "../../../asset/images/curri-2.jpg";
+import { Link } from "react-router-dom";
 
 function Courses() {
   const [Curri, setCurri] = useState(true);
@@ -98,7 +99,7 @@ function Courses() {
             to build real life solutions.
           </p>
           <button className="btn curri_btn_join">
-            <a href="/join">Join ROU Tech</a>
+            <Link to="/programs">Join ROU Tech</Link>
           </button>
         </div>
       </div>
@@ -111,7 +112,7 @@ function Courses() {
             future.
           </p>
           <button className="btn curri_btn_join">
-            <a href="/join">Join ROU Tech</a>
+            <Link to="/programs">Join ROU Tech</Link>
           </button>
         </div>
       </div>
@@ -124,7 +125,7 @@ function Courses() {
             venture into the market.
           </p>
           <button className="btn curri_btn_join">
-            <a href="/join">Join ROU Tech</a>
+            <Link to="/programs">Join ROU Tech</Link>
           </button>
         </div>
       </div>

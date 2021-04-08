@@ -82,7 +82,7 @@ export default class AboutPage extends Component {
           fortunate we are to now partner with gurus in the Tech field, to make
           this wish come true.
         </p>
-        <div className="contact-form">
+        <div className="contact-form" id="contact">
           <h2 className="ab-h2">Contact Us</h2>
           <form onSubmit={this.handleFormSubmit}>
             <div className="form-row">

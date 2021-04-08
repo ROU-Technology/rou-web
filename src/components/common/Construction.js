@@ -10,7 +10,7 @@ function Construction(props) {
         <div className="const-word col-md-6">
           <h1 className="const-h1">{props.Head}</h1>
           <p>{props.Word}</p>
-          <button className="btn btn-outline-success">
+          <button className="btn btn-outline-success btn-con">
             <Link className="btn-const" to={props.Link}>
               {props.Location}
             </Link>
