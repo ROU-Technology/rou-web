@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../asset/images/logo.svg";
+import logo from "../../asset/images/logo.png";
 import "./Nav.css";
 
 function Nav() {
